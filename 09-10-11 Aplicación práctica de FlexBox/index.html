@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosco Business</title>
+    <style type="text/css">
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Oswald", serif;
+        }
+
+        nav {
+            background-color: midnightblue;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: red;
+            font-weight: bold;
+            text-shadow: 3px 3px 5px white;
+
+        }
+
+        header {
+            background-image: url("images/business.jpg");
+            background-size:cover;
+            height: 400px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+        }
+        .titular {
+            text-align: center;
+        }
+        .titular h2 {
+            color: orange;
+            text-shadow: 3px 3px 5px black;
+        }
+        .titular h1 {
+            color: white;
+            text-shadow: 3px 3px 5px black;
+            font-size: 3em;
+        }
+
+        section#nuestros-clientes {
+            text-align: center;
+            padding: 20px;
+        }
+        .título {
+            color: purple;
+            font-size: 0.9em;
+        }
+        section#nuestros-clientes img {
+            border-radius: 50%;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Quienes somos</a>
+        <a href="#">Consultoría</a>
+        <a href="#">Diseño Web</a>
+        <a href="#">Dónde estamos</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <header>
+        <div class="titular">
+            <h1>Bosco Business</h1>
+            <h2>Tu puerta al futuro</h2>
+        </div>
+    </header>
+    <section id="nuestros-clientes">
+        <h2 class="título">Lo dicen nuestros clientes</h2>
+        <img src="images/chica.jpg" alt="">
+        <h4>Bosco Business es la solución para mi empresa</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quibusdam ab dolore possimus quae fugiat hic! Voluptatibus voluptate reprehenderit perferendis cum distinctio ad quisquam quam at fugit! Accusantium, delectus voluptatibus?</p>
+    </section>
+    <footer>
+        <p>&copy;Bosco Desing, S.L.</p>
+    </footer>
+</body>
+</html>

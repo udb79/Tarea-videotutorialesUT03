@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semánticas HTML</title>
+    <style type="text/css">
+
+        *{
+            margin: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            height: 150px
+        }
+        nav {
+            background-color: red;
+            color: yellow;
+            text-align: center;
+        }
+        nav li {
+            display: inline-block;
+            padding: 10px;
+            margin: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: yellow;
+        }
+        nav a:hover {
+            color: blue;
+            font-weight: bold;
+        }
+        main {
+            background-color: pink;
+            height: 500px;
+        }
+        section {
+            background-color: lightgreen;
+            width: 60%;
+            float: left;
+            height: 100%;
+        }
+        article {
+            background-color: antiquewhite;
+            height: 50%;
+        }
+        aside {
+            width: 40%;
+            background-color: lightgrey;
+            float: left;
+            height: 100%;
+        }
+        footer {
+            background-color: grey;
+            height: 100px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Distribuciones Pérez</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Quienes somos</a></li>
+            <li><a href="">Tienda</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="novedaes">
+            <article>
+                <h2>Nuevos Taladros BOSH</h2>
+                <p>Han llegado unos estupenndos taladros más potentes y económicos.</p>
+            </article>
+            <article>
+                <h2>Rebajas en mobiliario</h2>
+                <p>Este mes obtenga un 20% de descuento con su carnet de socio.</p>
+            </article>
+        </section>
+        <aside>
+            <p>Visite nuestra nueva tienda en Herencia.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>(c)Distribiciones Pérez, S.L</p>
+    </footer>
+</body>
+</html>
